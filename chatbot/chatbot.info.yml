@@ -1,0 +1,8 @@
+name: 'gptbot'
+type: module
+description: A module to enable Chat
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - drupal:rest
+  - drupal:config
+  - drupal:serialization

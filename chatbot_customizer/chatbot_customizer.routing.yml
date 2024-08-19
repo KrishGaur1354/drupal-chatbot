@@ -1,0 +1,7 @@
+chatbot_customizer.settings:
+  path: '/admin/config/system/chatbot-customizer'
+  defaults:
+    _form: '\Drupal\chatbot_customizer\Form\ChatbotCustomizerSettingsForm'
+    _title: 'Chatbot Customizer Settings'
+  requirements:
+    _permission: 'administer site configuration'

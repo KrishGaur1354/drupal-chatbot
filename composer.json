@@ -1,0 +1,20 @@
+{
+    "name": "krishgaur1354/chatbot",
+    "description": "The Drupal AI Chatbot module leverages OpenAI's language models to add an intelligent chatbot to your Drupal site. It analyzes user interactions and provides real-time assistance, information retrieval, and interactive experiences for website visitors.",
+    "type": "drupal-module",
+    "minimum-stability": "stable",
+    "license": "MIT Licence",
+    "authors": [
+        {
+            "name": "Krish Gaur",
+            "email": "krishgaur13@gmail.com"
+        }
+    ],
+    "require": {
+        "drupal/core": "^9 || ^10",
+        "drupal/rest": "^9 || ^10",
+        "drupal/config": "^9 || ^10",
+        "drupal/serialization": "^9 || ^10"
+    }
+
+}

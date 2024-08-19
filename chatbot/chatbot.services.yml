@@ -1,0 +1,6 @@
+services:
+  chatbot.rest.resource.chatbot_settings:
+    class: Drupal\chatbot\Plugin\rest\resource\ChatbotSettingsResource
+    arguments: ['@config.factory', '@logger.factory']
+    tags:
+      - { name: 'rest.resource' }

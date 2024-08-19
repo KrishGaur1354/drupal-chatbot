@@ -1,0 +1,8 @@
+id: chatbot_settings
+plugin_id: chatbot_settings
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json

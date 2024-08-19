@@ -1,0 +1,7 @@
+name: Chatbot Customizer
+type: module
+description: 'Adds customization options to the Chatbot module.'
+package: Custom
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - chatbot:chatbot

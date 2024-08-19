@@ -1,0 +1,23 @@
+chatbot.hello:
+  path: "/chatbot"
+  defaults:
+    _controller: '\Drupal\chatbot\Controller\HelloController::hello'
+    _title: "Module Chatbot"
+  requirements:
+    _permission: "access content"
+
+chatbot.admin_settings:
+  path: '/admin/config/system/chatbot-settings'
+  defaults:
+    _form: '\Drupal\chatbot\Form\ChatbotSettingsForm'
+    _title: 'Chatbot Settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+chatbot.api_settings:
+  path: '/api/chatbot/settings'
+  defaults:
+    _controller: '\Drupal\chatbot\Controller\HelloController::getSettings'
+  methods: [GET]
+  requirements:
+    _permission: 'access content'
