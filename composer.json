@@ -3,7 +3,7 @@
     "description": "The Drupal AI Chatbot module leverages OpenAI's language models to add an intelligent chatbot to your Drupal site. It analyzes user interactions and provides real-time assistance, information retrieval, and interactive experiences for website visitors.",
     "type": "drupal-module",
     "minimum-stability": "stable",
-    "license": "MIT Licence",
+    "license": "MIT",
     "authors": [
         {
             "name": "Krish Gaur",
